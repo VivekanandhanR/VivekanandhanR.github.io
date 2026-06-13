@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Hi there, I'm Vivekanandhan R 👋</h1>
 <h3 align="center">A passionate software developer building things for the web</h3>
 
@@ -43,3 +44,33 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VivekanandhanR&layout=compact&theme=radium&hide_border=true" alt="Top Languages" />
 </p>
+=======
+# Personal Portfolio
+
+This repository contains the source code for my personal portfolio website, hosted via GitHub Pages. 
+
+You can view the live site here: **[https://VivekanandhanR.github.io](https://VivekanandhanR.github.io)**
+
+## Tech Stack
+- **HTML5**: Semantic structure and accessibility.
+- **CSS3**: Custom vanilla CSS with CSS variables, Flexbox/Grid layouts, glassmorphism UI elements, and a responsive mobile-first design.
+- **JavaScript (Vanilla)**: Interaction logic, responsive navigation, and scroll-triggered animations.
+
+## Local Development
+To run this project locally, simply clone the repository and open `index.html` in your web browser:
+
+```bash
+git clone https://github.com/VivekanandhanR/VivekanandhanR.github.io.git
+cd VivekanandhanR.github.io
+```
+Then, double-click on `index.html` or use an extension like VS Code Live Server.
+
+## Features
+- **Dark Mode Theme**: Premium, modern aesthetics with vibrant accent gradients.
+- **Responsive Navigation**: An auto-hiding header that transforms into a side drawer on mobile.
+- **Animations**: Intersection Observer API for smooth fade-in effects as you scroll.
+- **Performant**: No heavy frameworks required, ensuring maximum speed.
+
+---
+*Designed and built by [Vivekanandhan R](https://github.com/VivekanandhanR).*
+>>>>>>> d0eea99 (feat: setup custom portfolio website and profile README)
