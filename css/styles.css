@@ -135,19 +135,7 @@ body {
     display: block;
 }
 
-/* Gradient overlay for text readability */
-.hero::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        to right,
-        rgba(10, 15, 30, 0.8) 0%,
-        rgba(10, 15, 30, 0.4) 50%,
-        rgba(10, 15, 30, 0.00) 100%
-    );
-    pointer-events: none;
-}
+/* Gradient removed */
 
 /* Name + subtitle overlaid on the hero image */
 .hero-text {
@@ -160,20 +148,19 @@ body {
 .hero-text h1 {
     font-size: 42px;
     font-weight: 700;
-    color: #ffffff;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    color: #1a1d36;
     line-height: 1.2;
 }
 
 .hero-text h1 span.hindi {
     font-size: 24px;
     font-weight: 400;
-    color: #8db0ff;
+    color: #4a6cf7;
 }
 
 .hero-text .subtitle {
     font-size: 16px;
-    color: #d0d8ff;
+    color: #6a70a0;
     margin-top: 10px;
     font-weight: 500;
     letter-spacing: 0.5px;
