@@ -1,260 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/jpeg" href="PP.jpeg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vivekanandhan Raja - Portfolio</title>
-    <meta name="description" content="Personal portfolio of Vivekanandhan Raja, Delivery Lead and Video Technology Expert.">
-    
+    <title>Vivekanandhan Raja | Portfolio</title>
+
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Portfolio Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
-    
-    <!-- FontAwesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Background Elements -->
-    <div class="bg-glow bg-glow-1"></div>
-    <div class="bg-glow bg-glow-2"></div>
 
-    <header class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#home" class="logo">VR<span>.</span></a>
-            <div class="mobile-menu-btn" id="mobile-menu-btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <nav class="nav-links" id="nav-links">
-                <a href="#about" class="nav-link">About</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#certifications" class="nav-link">Certifications</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#contact" class="nav-link btn-primary-outline">Contact Me</a>
-            </nav>
+<!-- ════════════════════════════════
+     SIDEBAR
+════════════════════════════════ -->
+<aside class="sidebar">
+    <img src="PP.jpeg"
+         alt="Vivekanandhan Raja"
+         class="profile-photo">
+
+    <div class="sidebar-name">Vivekanandhan Raja</div>
+    <div class="sidebar-role">
+        Delivery Lead<br>
+        Synamedia
+    </div>
+
+    <!-- Page Navigation -->
+    <nav class="sidebar-nav">
+        <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="#bio"><i class="fas fa-user"></i> About</a>
+        <a href="#academic"><i class="fas fa-briefcase"></i> Experience</a>
+        <a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a>
+        <a href="#skills"><i class="fas fa-laptop-code"></i> Skills</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+
+    <div class="sidebar-divider"></div>
+
+    <!-- Social Icons -->
+    <div class="social-row">
+        <a href="https://github.com/VivekanandhanR" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vivraja" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:vivekanandhan.r@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+</aside>
+
+<!-- ════════════════════════════════
+     MAIN CONTENT
+════════════════════════════════ -->
+<main class="main">
+
+    <!-- ── Hero ── -->
+    <div class="hero">
+        <img src="hero-bg.png"
+             alt="Technology Banner"
+             class="hero-img">
+
+        <!-- Name overlaid on the image -->
+        <div class="hero-text">
+            <h1>Vivekanandhan Raja <span class="hindi">| Delivery Lead</span></h1>
+            <p class="subtitle">Video Technology | Pay-TV Solutions | STB & OTT</p>
         </div>
-    </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero section">
-            <div class="container hero-content">
-                <div class="hero-text fade-in-up">
-                    <p class="greeting">Hi, my name is</p>
-                    <h1 class="name gradient-text">Vivekanandhan Raja.</h1>
-                    <h2 class="role">Delivery Lead & QA Expert.</h2>
-                    <p class="bio-short">
-                        Goal-oriented servant leader with 12+ years of experience in project management and the delivery of Video Streaming products (STB & OTT) using AWS cloud solutions. I excel in handling hybrid agile methodologies and building high-performance teams.
-                    </p>
-                    <div class="hero-cta">
-                        <a href="#experience" class="btn btn-primary">View My Experience</a>
-                        <a href="https://github.com/VivekanandhanR" target="_blank" class="btn btn-social"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/vivraja" target="_blank" class="btn btn-social"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="hero-image fade-in-up" style="animation-delay: 0.2s;">
-                    <div class="image-wrapper">
-                        <img src="PP.jpeg" alt="Vivekanandhan Raja" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 20px; border: 1px solid rgba(255,255,255,0.05); display: block;">
-                    </div>
-                </div>
+        <!-- Cards straddling the bottom edge of the hero -->
+        <div class="research-interests">
+            <div class="interest-card">
+                <i class="fas fa-tv"></i>
+                <div class="card-title">Video Streaming</div>
+                <div class="card-desc">Expertise in STB, OTT, and 4K ABR Streaming.</div>
             </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="section about">
-            <div class="container">
-                <h2 class="section-title fade-in-up"><span>01.</span> About Me</h2>
-                <div class="about-content fade-in-up">
-                    <div class="about-text">
-                        <p>Hello! My name is Vivekanandhan Raja. Over the past 12 years in the IT industry, my career has evolved around ensuring the highest quality of Video Technology delivery and steering cross-functional teams toward continuous improvement.</p>
-                        <p>I specialize in End-to-End Program management, including estimation, scheduling, risk mitigation, and stakeholder communications. I have a proven track record of setting up headend infrastructure, test environments, and pushing the boundaries of automated CI/CD systems.</p>
-                        <p>A few areas I have been focusing on recently:</p>
-                        <ul class="skills-list-inline">
-                            <li>Video Streaming (OTT/STB)</li>
-                            <li>Agile Methodologies</li>
-                            <li>AWS Cloud Solutions</li>
-                            <li>Test Automation (Selenium)</li>
-                            <li>CI/CD Implementation</li>
-                            <li>User Acceptance Testing</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="interest-card">
+                <i class="fas fa-cloud"></i>
+                <div class="card-title">Cloud Infrastructure</div>
+                <div class="card-desc">Architecting robust deployments on AWS Cloud.</div>
             </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="section experience">
-            <div class="container">
-                <h2 class="section-title fade-in-up"><span>02.</span> Where I've Worked</h2>
-                <div class="timeline fade-in-up">
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <h3>Delivery Lead <span>@ Synamedia</span></h3>
-                            <p class="timeline-date">March 2018 - Present (Bengaluru, India)</p>
-                            <ul>
-                                <li>Leading video streaming projects comprising 20 geographically located team members.</li>
-                                <li>End-to-End Program management including estimation, scheduling, risks, and stakeholder communications.</li>
-                                <li>Spearheaded hybrid agile methodologies for cross-functional teams and built new teams from scratch.</li>
-                                <li>Delivered first-ever 4K ABR Streaming and 64-bit STB for Astro customers.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <h3>Technical Lead <span>@ Cisco</span></h3>
-                            <p class="timeline-date">January 2014 - March 2018 (Bangalore)</p>
-                            <ul>
-                                <li>Performed Team management, Test planning, Release management, and Risk mitigation.</li>
-                                <li>Setup headend infrastructure required for testing features in India and onsite.</li>
-                                <li>Created Test plans/strategies for scrum teams and System test teams, and managed Defect tracking.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <h3>Senior Quality Assurance Engineer <span>@ NDS Limited</span></h3>
-                            <p class="timeline-date">March 2011 - January 2014 (Bengaluru, India)</p>
-                            <ul>
-                                <li>Prepared Test strategy, reviewing results and identifying scope for manual & automation testing.</li>
-                                <li>Reduced 30% of manual effort by adding selenium automation scripts to the CI/CD system.</li>
-                                <li>Executed tests for Site Acceptance Test conducted at client locations and field trials.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content glass-card">
-                            <h3>Senior Engineer-QA <span>@ mPortal</span></h3>
-                            <p class="timeline-date">February 2009 - March 2011 (Bengaluru, India)</p>
-                            <ul>
-                                <li>Worked on mobile application testing [Feature Phones] for E2E.</li>
-                                <li>Performed Requirements Review, Developing, and Executing test cases.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="interest-card">
+                <i class="fas fa-users-gear"></i>
+                <div class="card-title">Project Leadership</div>
+                <div class="card-desc">Agile Methodologies, Scrum, and Mentoring.</div>
             </div>
-        </section>
-
-        <!-- Certifications & Honors Section -->
-        <section id="certifications" class="section projects">
-            <div class="container">
-                <h2 class="section-title fade-in-up"><span>03.</span> Certifications & Honors</h2>
-                <div class="projects-grid">
-                    <!-- Cert 1 -->
-                    <div class="project-card glass-card fade-in-up">
-                        <div class="project-top">
-                            <i class="fa-solid fa-certificate project-icon"></i>
-                        </div>
-                        <h3 class="project-title">Agile Leadership</h3>
-                        <p class="project-desc">Certified ScrumMaster (CSM®) and Certified Scrum Product Owner (CSPO®), validating expertise in agile practices and product delivery.</p>
-                        <ul class="project-tech">
-                            <li>CSM®</li>
-                            <li>CSPO®</li>
-                            <li>Agile</li>
-                        </ul>
-                    </div>
-                    <!-- Cert 2 -->
-                    <div class="project-card glass-card fade-in-up" style="animation-delay: 0.1s;">
-                        <div class="project-top">
-                            <i class="fa-solid fa-shield-halved project-icon"></i>
-                        </div>
-                        <h3 class="project-title">CISCO Security Ninja</h3>
-                        <p class="project-desc">Certified CISCO Security Ninja (White Belt and Green Belt), ensuring adherence to strict software security standards.</p>
-                        <ul class="project-tech">
-                            <li>Security</li>
-                            <li>CISCO</li>
-                            <li>Compliance</li>
-                        </ul>
-                    </div>
-                    <!-- Awards -->
-                    <div class="project-card glass-card fade-in-up" style="animation-delay: 0.2s;">
-                        <div class="project-top">
-                            <i class="fa-solid fa-trophy project-icon"></i>
-                        </div>
-                        <h3 class="project-title">Honors & Awards</h3>
-                        <p class="project-desc">Recognized for outstanding delivery and collaboration with the <i>You Amaze Award</i>, <i>You Accelerate Award</i>, and <i>Together Achieved Award</i>.</p>
-                        <ul class="project-tech">
-                            <li>Performance</li>
-                            <li>Collaboration</li>
-                            <li>Leadership</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="interest-card">
+                <i class="fas fa-bug-slash"></i>
+                <div class="card-title">Quality Assurance</div>
+                <div class="card-desc">UAT, Selenium Automation, and CI/CD Pipelines.</div>
             </div>
-        </section>
+        </div>
+    </div><!-- /.hero -->
 
-        <!-- Skills Section -->
-        <section id="skills" class="section skills">
-            <div class="container">
-                <h2 class="section-title fade-in-up"><span>04.</span> Core Expertise</h2>
-                <div class="skills-container fade-in-up">
-                    <div class="skill-category glass-card">
-                        <h3>Leadership & Delivery</h3>
-                        <div class="skill-tags">
-                            <span>Project Management</span>
-                            <span>Release Management</span>
-                            <span>Hybrid Agile / Scrum</span>
-                            <span>Risk Mitigation</span>
-                            <span>Team Mentoring</span>
-                            <span>Stakeholder Comms</span>
-                        </div>
-                    </div>
-                    <div class="skill-category glass-card">
-                        <h3>Quality Assurance</h3>
-                        <div class="skill-tags">
-                            <span>User Acceptance Testing</span>
-                            <span>Functional Testing</span>
-                            <span>Automation (Selenium)</span>
-                            <span>Bug Tracking</span>
-                            <span>Test Strategy</span>
-                            <span>ISTQB® Foundation</span>
-                        </div>
-                    </div>
-                    <div class="skill-category glass-card">
-                        <h3>Technology & Domain</h3>
-                        <div class="skill-tags">
-                            <span>Video Streaming</span>
-                            <span>Pay-TV Solutions</span>
-                            <span>STB & OTT</span>
-                            <span>4K ABR Streaming</span>
-                            <span>AWS Cloud</span>
-                            <span>CI/CD</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- ── Content below hero ── -->
+    <div class="content">
 
-        <!-- Contact Section -->
-        <section id="contact" class="section contact">
-            <div class="container fade-in-up">
-                <p class="contact-pre">05. What's Next?</p>
-                <h2 class="contact-title">Get In Touch</h2>
-                <p class="contact-desc">
-                    Whether you have a question or are looking for someone to lead complex delivery projects, my inbox is always open. I'll try my best to get back to you!
+        <!-- ── Two-column: Brief Bio + Academic Odyssey ── -->
+        <div class="two-col">
+
+            <!-- Brief Bio -->
+            <div class="section" id="bio">
+                <h2 class="section-title">Brief Bio</h2>
+                <p class="bio-text">
+                    I am a goal-oriented servant leader with over <strong>12 years of rich experience</strong> in project management and the delivery of Video Streaming products. I specialize in handling hybrid agile methodologies for cross-functional teams, maximizing productivity, and managing end-to-end program delivery using AWS cloud solutions.
+                    <br><br>
+                    Throughout my career, I've had the privilege of working with leading companies like <strong>Synamedia</strong>, <strong>Cisco</strong>, and <strong>NDS Limited</strong>, where I've delivered high-quality pay-TV solutions, set up complex test environments, and reduced manual effort through intelligent automation.
                 </p>
-                <a href="mailto:vivekanandhan.r@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+                <div class="btn-row">
+                    <a href="#academic" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i> View Experience
+                    </a>
+                    <a href="Profile.pdf" target="_blank" class="btn btn-outline">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
             </div>
-        </section>
-    </main>
 
-    <footer>
-        <div class="footer-container">
-            <div class="social-links-footer">
-                <a href="https://github.com/VivekanandhanR" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/vivraja" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <!-- Academic Odyssey -->
+            <div class="section" id="academic">
+                <h2 class="section-title">Professional Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>Delivery Lead at Synamedia</h4>
+                        <div class="period">March 2018 – Present</div>
+                        <p>Leading video streaming projects and cross-functional agile teams to deliver high-quality STB & OTT products.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Technical Lead at Cisco</h4>
+                        <div class="period">Jan 2014 – March 2018</div>
+                        <p>Managed headend infrastructure, test planning, release management, and risk mitigation.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Senior QA Engineer at NDS Limited</h4>
+                        <div class="period">March 2011 – Jan 2014</div>
+                        <p>Reduced 30% of manual effort via Selenium automation and executed Site Acceptance Tests.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Senior Engineer-QA at mPortal</h4>
+                        <div class="period">Feb 2009 – March 2011</div>
+                        <p>E2E mobile application testing and executing test cases.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>B.E. Electronics & Communication</h4>
+                        <div class="period">2003 – 2006</div>
+                        <p>Institute of Road and Transport Technology</p>
+                    </div>
+                </div>
             </div>
-            <p>Designed & Built by Vivekanandhan Raja</p>
+
+        </div><!-- /.two-col -->
+
+        <!-- ── Certifications ── -->
+        <div class="section" id="certifications">
+            <h2 class="section-title">Certifications & Honors</h2>
+            <ul class="pub-list">
+                <li class="pub-item">
+                    <div class="pub-indicator"></div>
+                    <div class="pub-body">
+                        <div class="pub-title">Certified ScrumMaster (CSM®) & Certified Scrum Product Owner (CSPO®)</div>
+                        <div class="pub-meta">Validating expertise in agile practices and effective product delivery.</div>
+                    </div>
+                </li>
+                <li class="pub-item">
+                    <div class="pub-indicator"></div>
+                    <div class="pub-body">
+                        <div class="pub-title">CISCO Certified Security Ninja</div>
+                        <div class="pub-meta">White Belt and Green Belt — ensuring adherence to strict software security standards.</div>
+                    </div>
+                </li>
+                <li class="pub-item">
+                    <div class="pub-indicator"></div>
+                    <div class="pub-body">
+                        <div class="pub-title">ISTQB Foundation Level</div>
+                        <div class="pub-meta">International Software Testing Qualifications Board Certification.</div>
+                    </div>
+                </li>
+                <li class="pub-item">
+                    <div class="pub-indicator"></div>
+                    <div class="pub-body">
+                        <div class="pub-title">Company Honors</div>
+                        <div class="pub-meta">Recipient of the <i>You Amaze Award</i>, <i>You Accelerate Award</i>, and <i>Together Achieved Award</i> for outstanding performance.</div>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </footer>
 
-    <script src="js/main.js"></script>
+        <!-- ── Skills ── -->
+        <div class="section" id="skills">
+            <h2 class="section-title">Core Skills</h2>
+            <div class="students-grid">
+                <div class="student-card">
+                    <div class="student-name">Management</div>
+                    <div class="student-topic">Agile Methodologies, Scrum, Program Management, Estimation & Budgeting.</div>
+                </div>
+                <div class="student-card">
+                    <div class="student-name">Video Technology</div>
+                    <div class="student-topic">Pay-TV solutions, STB, OTT, 4K ABR Streaming.</div>
+                </div>
+                <div class="student-card">
+                    <div class="student-name">Quality Assurance</div>
+                    <div class="student-topic">UAT, Bug Tracking, Functional Testing, Defect Management.</div>
+                </div>
+                <div class="student-card">
+                    <div class="student-name">Automation & Tools</div>
+                    <div class="student-topic">AWS Cloud Solutions, Selenium, CI/CD Integration.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Contact ── -->
+        <div class="section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-box">
+                <p><i class="fas fa-envelope"></i> vivekanandhan.r@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</p>
+            </div>
+        </div>
+
+        <footer class="site-footer">
+            &copy; 2026 Vivekanandhan Raja &mdash; Built for GitHub Pages
+        </footer>
+
+    </div><!-- /.content -->
+</main>
+
+<script>
+    // Simple smooth scrolling and active state logic
+    document.querySelectorAll('.sidebar-nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            document.querySelectorAll('.sidebar-nav a').forEach(a => a.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Allow default jump behavior but smoothly
+            if(this.getAttribute('href').startsWith('#')) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if(target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 20,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    });
+</script>
 </body>
 </html>
